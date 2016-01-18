@@ -12,4 +12,4 @@ Install:
 1. clone repo 
     `git clone https://github.com/jscaduto/dotfiles.git && cd dotfiles`
 2. link files to oh-my-zsh config directory 
-    `ln -s * ~/.oh-my-zsh/custom`
+    `ln -f * ~/.oh-my-zsh/custom`
