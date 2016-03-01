@@ -5,6 +5,7 @@ plugins+=(docker)
 alias de="docker exec -it"
 alias di="docker images"
 alias dps="docker ps -a"
+alias drm="docker rm"
 alias drmc="docker ps -a -q | xargs docker rm"
 alias drmi="docker rmi"
 alias drmid="docker images -qf 'dangling=true' | xargs docker rmi"
