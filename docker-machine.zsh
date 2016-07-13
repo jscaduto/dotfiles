@@ -1,6 +1,7 @@
 # Docker-machine
-eval "$(docker-machine env default)"
-export DOCKER_HOST_IP="$(docker-machine ip default)"
+# eval "$(docker-machine env default)"
+# export DOCKER_HOST_IP="$(docker-machine ip default)"
+export DOCKER_HOST_IP=127.0.0.1
 
 # Docker-machine
 alias dme="docker-machine env default"
