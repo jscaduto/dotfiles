@@ -4,6 +4,7 @@ plugins+=(docker-compose)
 # Docker Compose aliases
 alias dc="docker-compose"
 alias dcb="docker-compose build --pull"
+alias dcd="docker-compose down --rmi local -v --remove-orphans"
 alias dce="docker-compose exec"
 alias dck="docker-compose kill"
 alias dcp="docker-compose pull"
