@@ -12,4 +12,4 @@ Install zsh aliases:
 1. clone repo 
     `git clone https://github.com/jscaduto/dotfiles.git && cd dotfiles`
 2. link files to oh-my-zsh config directory 
-    `ln -s zsh/* ~/.oh-my-zsh/custom`
+    `ln zsh/* ~/.oh-my-zsh/custom`
