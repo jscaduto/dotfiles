@@ -1,4 +1,4 @@
-# Docker Compose zsh plugin
+# Docker Compose & zsh plugin
 plugins+=(docker-compose)
 
 # Docker Compose aliases
